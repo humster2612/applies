@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React  from 'react';
 import './App.css';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
 
-function App() {
+ 
+// Сама компонента сам файл APP  будет обозначать , что 
+//  у нас есть целый квадрат , он будет отвечать для того что бы вместить все блоки в себе 
+//  по типу хедера , сайдбара , контента и т.д.
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+   
+      <div className='app-wrapper'>
+        <Header/>
+        <Navbar/>
+        <Profile/>
+ </div>);
+};
+
 
 export default App;
+
+
+
