@@ -1,0 +1,65 @@
+.content{
+    grid-area:c;
+    background-color: #cfdaec;
+   
+  }
+  
+  
+  
+  .imageStyles{
+  width: 20px;
+  height: 20px;
+  }
+  
+  
+  .bar{
+  
+    display: flex;
+    margin-left: start;
+    margin-right: start;
+    width: max-content;
+    margin: 50px;
+  
+    
+    
+  }
+  
+  .bar_face{
+    width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 2px 2px 15px 3px #000;
+      background-color: #fff;
+      padding: 15px 15px;
+  }
+  
+  
+  .bar_face_image{
+  
+  position: absolute;
+  margin: -10px;
+  }
+  
+  
+  .information{
+  display: flex;
+  float: right;
+  margin-top: -190px;
+  border-radius: 30px;
+  background-color: #f1f1f1;
+  justify-content:center ;
+  align-items: center;
+  margin-left: 0, auto;
+  margin-right: 200px;
+  width: 600px;
+  }
+  
+  .information_block{
+    padding: 15px 10px;
+  }
+  
+  
+  .information_title{
+    font-size: 30px;
+  
+  }
