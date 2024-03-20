@@ -22,11 +22,11 @@ const Navbar =() =>{
 {/* Тут будем делать линки , типа ссылки какие то на страницы либо ещё что то будем делать всё дивками*/}
 
 <div className={s.item}>
-  <a>Profile</a>
+  <a href='/profile'>Profile</a>
 </div>
 
 <div className={s.item}>
-  <a>Messages</a> 
+  <a href='/dialogs'>Messages</a>
 </div>
 
 <div className={`${s.item}${s.active}`}>

@@ -3,15 +3,19 @@ import s from './Post.module.css';
 
 
 
-const Post=()=>{
+const Post=(props)=>{
+
     return (
 
     <div className={s.item}>
         <img src="https://cdn.icon-icons.com/icons2/1539/PNG/512/3289576-individual-man-people-person_107097.png" alt="" />
-        post 1
+        {props.massage}
+        
+
 
     <div>
-    <span>like</span>
+    <span>like:</span>
+    {props.likesCount}
     </div>
         
 
@@ -19,10 +23,7 @@ const Post=()=>{
    
  )
 
-   
-
 };
-
 
 
 export default Post;

@@ -5,7 +5,7 @@ import MyPosts from './MyPosts/MyPosts';
 
 
 const Profile=()=>{
-    return <div className ={s.content}>
+    return <div >
     <div className='contentimage'>
     <img src='https://images.wallpaperscraft.ru/image/single/avtomobil_retro_vintazh_208617_1280x720.jpg' width='100%' height='500px'/>
     </div>

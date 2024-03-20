@@ -13,23 +13,15 @@ const MyPosts=()=>{
         <button>Remove</button>
     </div>
 
-<div className={s.posts}>
-<Post/>
-<Post/>
-<Post/>
-<Post/>
-<Post/>
-
-
+<div className = {s.posts}>
+    <Post message='Hi,how are you?' likesCount='0' />
+    <Post message="It's my firs project" likesCount ='25'/>
 </div>
-    
-    </div>
+
+    </div> 
  )
 
-   
 
 };
-
-
 
 export default MyPosts;
