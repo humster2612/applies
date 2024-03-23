@@ -6,22 +6,28 @@ import Post from './Post/Post';
 
 const MyPosts=()=>{
     return (
-<div>My Posts
-    <div>
-        <textarea></textarea>
-        <button>Add post</button>
-        <button>Remove</button>
-    </div>
 
-<div className = {s.posts}>
-    <Post message='Hi,how are you?' likesCount='0' />
-    <Post message="It's my firs project" likesCount ='25'/>
-</div>
+        <div className={s.postBlock}>
+            <h3>My Posts</h3>
+            <div>
+                <div>
+                <textarea></textarea>
+                </div>
+                <div>
+                <button>Add post</button>
+                </div>
 
-    </div> 
- )
+            </div>
 
+            <div className = {s.posts}>
+                <Post message='Hi,how are you?' likesCount='0' />
+                <Post message="It's my firs project" likesCount ='25'/>
+            </div>
 
+        </div>
+    )
+
+    
 };
 
 export default MyPosts;

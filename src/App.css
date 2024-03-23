@@ -2,7 +2,10 @@
   margin: 0 auto;
   width: 1200px;
   display: grid;
-  grid-template-areas: 
+
+  grid-template-areas:
+ 
+
   "h h"
   "n c";
 
@@ -10,6 +13,7 @@
   grid-template-columns: 2fr 10fr;
 
 }
+
 
 .app_wrapper_content{
   grid-area:c ;
