@@ -37,6 +37,14 @@ const Dialogs = (props) => {
 
     ]
 
+    let dialogsElements = [
+    <DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>,
+    <DialogItem name={dialogsData[1].name} id={dialogsData[1].id}/>,
+    <DialogItem name={dialogsData[2].name} id={dialogsData[2].id}/>,
+    <DialogItem name={dialogsData[3].name} id={dialogsData[3].id}/>]
+
+
+
 
     let messageData = (props) = [
         {id: '1', message: 'HI'},
@@ -50,11 +58,10 @@ const Dialogs = (props) => {
 
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
-
-                <DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>
-                <DialogItem name={dialogsData[1].name} id={dialogsData[1].id}/>
-                <DialogItem name={dialogsData[2].name} id={dialogsData[2].id}/>
-                <DialogItem name={dialogsData[3].name} id={dialogsData[3].id}/>
+            {
+                
+                    {dialogsElements}
+            }
 
             </div>
 
@@ -70,18 +77,7 @@ const Dialogs = (props) => {
 
     )
 
-
-    const Dialogs = (props) => {
-
-        return (
-            <div>
-                Dialogs
-            </div>
-        )
-
-    };
-
-
+    
 };
 
 
